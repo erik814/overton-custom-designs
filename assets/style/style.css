@@ -1,0 +1,117 @@
+:root {
+    --orange: #fca400;
+    --gray: #424242;
+    --white: #f3f3f3;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white);
+    margin: 0;
+}
+
+
+/* header */
+
+header {
+    color: var(--white);
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+    height: 150px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 20px;
+}
+nav a:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
+
+/* homepage image */
+
+.hp-image-container {
+    margin: 0;
+}
+
+.hp-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* main */
+
+.h2 {
+    color: var(--white);
+    background-color: var(--gray);
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+/* about */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-h2 {
+    width: 100%;
+    padding-left: 30px;
+}
+
+.about-text {
+    width: 80%;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+
+/* services */
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.service-h3 {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+    margin-right: 60px;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+}
+.service-h3:hover {
+    color: var(--orange);
+}
+
+.service-container a {
+    width: 60%;
+}
+
+.services-images {
+    width: auto;
+    height: 400px;
+}
