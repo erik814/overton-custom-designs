@@ -1,5 +1,5 @@
 :root {
-    --orange: #fca400;
+    --orange: #ee8700;
     --gray: #424242;
     --white: #f3f3f3;
 }
@@ -193,4 +193,11 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
 }
