@@ -102,33 +102,43 @@ nav a:hover {
 
 /* services */
 
-.service-container {
+.services-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    margin: 10px 0;
+}
+
+.service-container {
+    position: relative;
+    text-align: center;
+    margin: 10px;
 }
 
 .service-h3 {
-    display: flex;
-    justify-content: end;
-    width: 40%;
-    margin-right: 60px;
-    font-size: 30px;
-    text-decoration: none;
-    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1;
+
+    width: 50%;
+    background-color: var(--gray);
+    border-bottom: 4px solid var(--orange);
+    border-radius: 5px;
 }
-.service-h3:hover {
+
+.service-text {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.service-text:hover {
     color: var(--orange);
 }
 
-.service-container a {
-    width: 60%;
-}
-
 .services-images {
-    width: auto;
-    height: 400px;
+    display: block;
+    height: 450px;
+    width: 700px;
 }
 
 
