@@ -31,12 +31,16 @@
         <div id="about">
             <h2 class="h2" id="about-h2">About</h2>
 
-            <div class="about-text">
-                <p>Welcome to Overton Custom Designs, your go-to construction company in the Twin Cities area. We specialize in creating custom residential and commercial spaces that reflect your unique style and needs.</p>
-                <p>Our team is made up of skilled designers, builders, and project managers who are passionate about delivering high-quality results that exceed your expectations. We believe in a collaborative approach to construction, working closely with you to understand your vision and bring it to life.</p>
-                <p>Whether you're looking to renovate your home, build a new office space, or add an addition to your property, we have the expertise and experience to get the job done right. From the initial design stage to the final touches, we'll be with you every step of the way to ensure a smooth and stress-free experience.</p>
-                <p>At Overton Custom Designs, we take pride in our attention to detail, craftsmanship, and commitment to customer satisfaction. We believe that every project is a reflection of our values, and we strive to create spaces that not only look beautiful but also function perfectly for your lifestyle or business.</p>
-                <p>Contact us today to learn more about our services and how we can help you achieve your construction goals. We look forward to working with you!</p>
+            <div class="about-flex">
+                <img class="about-image" src="./assets/images/examples/pergola1.jpg">
+
+                <div class="about-text">
+                    <p>Welcome to Overton Custom Designs, your go-to construction company in the Twin Cities area. We specialize in creating custom residential and commercial spaces that reflect your unique style and needs.</p>
+                    <p>Our team is made up of skilled designers, builders, and project managers who are passionate about delivering high-quality results that exceed your expectations. We believe in a collaborative approach to construction, working closely with you to understand your vision and bring it to life.</p>
+                    <p>Whether you're looking to renovate your home, build a new office space, or add an addition to your property, we have the expertise and experience to get the job done right. From the initial design stage to the final touches, we'll be with you every step of the way to ensure a smooth and stress-free experience.</p>
+                    <p>At Overton Custom Designs, we take pride in our attention to detail, craftsmanship, and commitment to customer satisfaction. We believe that every project is a reflection of our values, and we strive to create spaces that not only look beautiful but also function perfectly for your lifestyle or business.</p>
+                    <p>Contact us today to learn more about our services and how we can help you achieve your construction goals. We look forward to working with you!</p>
+                </div>
             </div>
 
         </div>
@@ -79,21 +83,41 @@
         <div id="test">
             <h2 class="h2">Testimonials</h2>
 
-            <div>
-                <h3>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum unde totam, qui rerum perspiciatis neque repellendus earum sunt omnis necessitatibus tempora quia voluptatem, architecto reprehenderit est. Dolor, quasi porro."</h3>
-                <p>~ Woowop</p>
+            <div class="tests">
+                <div class="test-container">
+                    <h3>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum unde totam, qui rerum perspiciatis neque repellendus earum sunt omnis necessitatibus tempora quia voluptatem, architecto reprehenderit est. Dolor, quasi porro."</h3>
+                    <p>~ Woowop</p>
+                </div>
+
+                <div class="test-container">
+                    <h3>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum unde totam, qui rerum perspiciatis neque repellendus earum sunt omnis necessitatibus tempora quia voluptatem, architecto reprehenderit est. Dolor, quasi porro."</h3>
+                    <p>~ Hasbulla</p>
+                </div>
+
+                <div class="test-container">
+                    <h3>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum unde totam, qui rerum perspiciatis neque repellendus earum sunt omnis necessitatibus tempora quia voluptatem, architecto reprehenderit est. Dolor, quasi porro."</h3>
+                    <p>~ Shaq</p>
+                </div>
             </div>
 
-            <div>
-                <h3>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum unde totam, qui rerum perspiciatis neque repellendus earum sunt omnis necessitatibus tempora quia voluptatem, architecto reprehenderit est. Dolor, quasi porro."</h3>
-                <p>~ Hasbulla</p>
-            </div>
+        </div>
 
-            <div>
-                <h3>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus illum unde totam, qui rerum perspiciatis neque repellendus earum sunt omnis necessitatibus tempora quia voluptatem, architecto reprehenderit est. Dolor, quasi porro."</h3>
-                <p>~ Shaq</p>
-            </div>
+        <div id="contact">
+            <h2 class="h2">Contact Us</h2>
+            <form class="form" action="action_page.php">
 
+                <label for="name">Name</label>
+                <input type="text" id="fname" name="name" placeholder="Your name..">
+            
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+            
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+            </form>
         </div>
     </main>
 
